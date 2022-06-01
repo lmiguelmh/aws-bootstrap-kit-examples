@@ -12,7 +12,8 @@
     "cdk": "cdk",
     "bootstrap": "cdk --profile lm2 bootstrap --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess",
     "synth": "cdk --profile lm2 synth",
-    "deploy": "cdk --profile lm2 deploy"
+    "deploy": "cdk --profile lm2 deploy",
+    "destroy": "cdk --profile lm2 destroy"
   },
   "devDependencies": {
     "@aws-cdk/assert": "2.1.0",
